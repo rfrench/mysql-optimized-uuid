@@ -1,0 +1,32 @@
+{
+  "name": "mysql-optimized-uuid",
+  "description": "create optimized uuids for mysql",
+  "version": "0.0.1",
+  "homepage": "https://github.com/rfrench/mysql-optimized-uuid",
+  "bugs": "https://github.com/rfrench/mysql-optimized-uuid/issues",
+  "author": {
+    "name": "Ryan French",
+    "email": "frenchrya@gmail.com",
+    "url": "http://rfren.ch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/rfrench/mysql-optimized-uuid.git"
+  },
+  "engines": {
+    "node": ">=0.12.7"
+  },
+  "main": "./index.js",
+  "dependencies": {
+    "node-uuid": "1.4.7",
+    "validator": "4.3.0"
+  },
+  "devDependencies": {
+    "mocha": "2.1.0",
+    "chai": "1.10.0"
+  },
+  "scripts": {
+    "start": "node server.js",
+    "test": "mocha test/*"
+  }
+}
